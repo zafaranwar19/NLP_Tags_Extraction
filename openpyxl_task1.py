@@ -56,3 +56,6 @@ def export_to_excel(folder_path, output_file):
 # Usage
 data_rows = export_to_excel("c:\Zafar\python\/nlp\/NLP_Tags_Extraction/MyDocs", "Organization_Capabilities.xlsx")
 
+
+
+

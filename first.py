@@ -3,7 +3,8 @@ from docx import Document
 import os
 
 # Load the industrial-strength model
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_trf")
 
 def extract_tags_from_docx(file_path):
     # 1. Read the Word Document
